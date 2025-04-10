@@ -66,7 +66,7 @@ build CMakeFiles/opengl_begin.dir/D_/C_Projets/opengl_begin/src/main.cpp.obj: CX
 
 build opengl_begin.exe: CXX_EXECUTABLE_LINKER__opengl_begin_Debug CMakeFiles/opengl_begin.dir/D_/C_Projets/opengl_begin/src/main.cpp.obj
   FLAGS = -g
-  LINK_LIBRARIES = -lglfw3  -lglad  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = -lglfw3  -lglad  -lglm  -lopengl32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -L"D:/C Projets/opengl_begin/lib"
   OBJECT_DIR = CMakeFiles\opengl_begin.dir
   POST_BUILD = cd .
