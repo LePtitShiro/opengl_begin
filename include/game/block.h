@@ -5,6 +5,7 @@
 #ifndef BLOCK_H
 #define BLOCK_H
 #include <glm/glm.hpp>
+#include <utils/TypeBlock.h>
 
 
 
@@ -12,8 +13,9 @@ class block {
 
 private:
     glm::vec3 position;// Position
-    float width, height, depth; // Size
-    float r, g, b; // Color
+    glm::vec3 size; // Size
+    TypeBlock typeBlock; // Type of block
+
 
     unsigned int VAO, VBO; // Vertex Array Object and Vertex Buffer Object
 
@@ -22,13 +24,15 @@ private:
 
 
 public:
-    block();
+    block(float x, float y, float z, TypeBlock typeBlock);
+    block(float x, float y, float z);
+    ~block();
 
     void draw();
     void update();
     void setPosition(float x, float y, float z);
     void setSize(float width, float height, float depth);
-    void setColor(float r, float g, float b);
+    void setTypeBlock(TypeBlock typeBlock);
 
 };
 
