@@ -1,0 +1,4 @@
+# ninja log v6
+1	199	7660155843101960	build.ninja	14ab109938551dea
+4	239	7660129197833823	CMakeFiles/opengl_begin.dir/D_/C_Projets/opengl_begin/src/main.cpp.obj	8bd135c7b09c1d24
+239	341	7660129200184656	opengl_begin.exe	d02fbebfc68ebbae
